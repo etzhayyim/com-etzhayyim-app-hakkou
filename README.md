@@ -45,6 +45,6 @@ namespace's docstring for detail:
 ```bash
 cd cljs
 npm install
-npm run build   # shadow-cljs compile app -> public/js/app.js
-npm test        # shadow-cljs compile test && node out/tests.js
+npm run build   # amu compile --target wasm32-browser app -> public/js/app.js
+npm test        # amu compile --target wasm32-browser test && node out/tests.js
 ```
